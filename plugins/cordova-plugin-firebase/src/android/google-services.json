@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "123",
-    "firebase_url": "https://cordova-plugin-firebase.firebaseio.com",
-    "project_id": "cordova-plugin-firebase",
-    "storage_bucket": "cordova-plugin-firebase.appspot.com"
+    "project_number": "704899738351",
+    "firebase_url": "https://markpoint-1530186757509.firebaseio.com",
+    "project_id": "markpoint-1530186757509",
+    "storage_bucket": "markpoint-1530186757509.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:123:android:123",
+        "mobilesdk_app_id": "1:704899738351:android:473544271204b650",
         "android_client_info": {
-          "package_name": "com.github.cordova_plugin_firebase"
+          "package_name": "com.markpoint.demopush"
         }
       },
       "oauth_client": [
         {
-          "client_id": "123.apps.googleusercontent.com",
+          "client_id": "704899738351-gb8ce79tkc9c5ckq2crgc62vl9echf7n.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "123"
+          "current_key": "AIzaSyDy5qsqcM25NjavXCz6zzfBirrb1U5SW-4"
         }
       ],
       "services": {
