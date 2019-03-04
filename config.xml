@@ -7,6 +7,9 @@
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
     </author>
+    <preference name="android-minSdkVersion" value="23" />
+    <preference name="android-targetSdkVersion" value="26" />
+    <preference name="android-compileSdkVersion" value="26" />
     <plugin name="cordova-plugin-firebase" spec="2.0.5" />
     <content src="index.html" />
     <access origin="*" />
