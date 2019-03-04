@@ -12,7 +12,7 @@
     <preference name="android-compileSdkVersion" value="26" />
     <plugin name="cordova-plugin-firebase" spec="2.0.5" />
     <platform name="android">
-        <resource-file src="google-services.json" target="app/google-services.json" />
+        <resource-file src="google-services.json" target="google-services.json" />
     </platform>
     <content src="index.html" />
     <access origin="*" />
