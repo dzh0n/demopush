@@ -37,7 +37,7 @@ var app = {
     onDeviceReady: function() {
 
         var notificationOpenedCallback = function(jsonData) {
-            console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
+            alert('notificationOpenedCallback: ' + JSON.stringify(jsonData));
         };
 
         window.plugins.OneSignal

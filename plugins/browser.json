@@ -9,6 +9,9 @@
     "installed_plugins": {
         "cordova-plugin-firebase": {
             "PACKAGE_NAME": "com.markpoint.demopush"
+        },
+        "onesignal-cordova-plugin": {
+            "PACKAGE_NAME": "com.markpoint.demopush"
         }
     },
     "dependent_plugins": {}

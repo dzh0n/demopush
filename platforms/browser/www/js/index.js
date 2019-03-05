@@ -35,13 +35,17 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-        app.receivedEvent('deviceready');
-       /* FCMPlugin.onTokenRefresh(function(token){
-            alert( token );
-        });*/
-        FCMPlugin.getToken(function(token){
-            alert(token);
-        });
+
+        var notificationOpenedCallback = function(jsonData) {
+            alert('notificationOpenedCallback: ' + JSON.stringify(jsonData));
+        };
+
+        window.plugins.OneSignal
+            .startInit("545e0ae9-f360-47cb-be70-8c8bab0ac2cc")
+            .handleNotificationOpened(notificationOpenedCallback)
+            .endInit();
+
+
         //navigator.vibrate([1000, 1000, 3000, 1000, 2000]);
     },
     // Update DOM on a Received Event
