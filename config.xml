@@ -10,7 +10,7 @@
     <preference name="android-minSdkVersion" value="15" />
     <preference name="android-targetSdkVersion" value="26" />
     <preference name="android-compileSdkVersion" value="26" />
-    <plugin name="cordova-plugin-firebase" spec="2.0.5" />
+    <plugin name="cordova-plugin-firebase" spec="cordova-plugin-firebase" />
     <platform name="android">
         <resource-file src="google-services.json" target="google-services.json" />
     </platform>
